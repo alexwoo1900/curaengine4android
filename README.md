@@ -12,20 +12,20 @@ This project can tell you how to run CuraEngine on Android.
 
 ## Quick Start
 
-- Download the [latest release](https://github.com/alexwoo1900/curaengine4android/archive/refs/heads/main.zip) and extract the package into `[CURAENGINE4ANDROID]`
+- Download the [latest release](https://github.com/alexwoo1900/curaengine4android/archive/refs/heads/main.zip) and extract the package into `ce4a`
 - Create a new C++ project in Android Studio
     - New Project -> Native C++
         - Language: Kotlin
         - Minimum SDK: Android 6.0
     - Initialize Android environment (automatic)
     - Setup your AVD
-        - Copy `[CURAENGINE4ANDROID]\com.example.myapplication` into `/mnt/sdcard/android/data` in AVD
-- Replace `[HOME]\AndroidStudioProjects\[PROJECT]\app\src` with `[CURAENGINE4ANDROID]\src`
-- Replace `[HOME]\AndroidStudioProjects\[PROJECT]\app\build.gradle` with `[CURAENGINE4ANDROID]\build.gradle`
+        - Copy `ce4a\com.example.myapplication` into `/mnt/sdcard/android/data` in AVD
+- Replace `~\AndroidStudioProjects\{PROJECT}\app\src` with `ce4a\src`
+- Replace `~\AndroidStudioProjects\{PROJECT}\app\build.gradle` with `ce4a\build.gradle`
 - Build and run
 
 PS.
-If you met any problems during building stage, delete `[HOME]\AndroidStudioProjects\[PROJECT]\app\.cxx` and retry.
+If you met any problems during building stage, delete `~\AndroidStudioProjects\{PROJECT}\app\.cxx` and retry.
 
 ### Customization
 
