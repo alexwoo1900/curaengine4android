@@ -1,10 +1,13 @@
 README: [ENGLISH](https://github.com/alexwoo1900/curaengine4android/blob/main/README.md) | [简体中文](https://github.com/alexwoo1900/curaengine4android/blob/main/README_CN.md)
 
-## CuraEngine for Android
+# CuraEngine for Android
+
+[![License](https://img.shields.io/github/license/alexwoo1900/curaengine4android)](https://www.gnu.org/licenses/agpl-3.0)
 
 If you know nothing about CuraEngine, please read it's [document](https://github.com/Ultimaker/CuraEngine) first.  
 
 This project can tell you how to run CuraEngine on Android.
+
 
 ## Demo
 

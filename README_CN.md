@@ -1,6 +1,8 @@
 README: [ENGLISH](https://github.com/alexwoo1900/curaengine4android/blob/main/README.md) | [简体中文](https://github.com/alexwoo1900/curaengine4android/blob/main/README_CN.md)
 
-## CuraEngine for Android
+# CuraEngine for Android
+
+[![License](https://img.shields.io/github/license/alexwoo1900/curaengine4android)](https://www.gnu.org/licenses/agpl-3.0)
 
 如果你还不知道什么是CuraEngine，请先阅读该 [项目文档](https://github.com/Ultimaker/CuraEngine)。  
 
