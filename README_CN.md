@@ -1,4 +1,4 @@
-README: [ENGLISH](https://github.com/alexwoo1900/curaengine_for_android/blob/master/README.md) | [简体中文](https://github.com/alexwoo1900/curaengine_for_android/blob/master/README_CN.md)
+README: [ENGLISH](https://github.com/alexwoo1900/curaengine4android/blob/main/README.md) | [简体中文](https://github.com/alexwoo1900/curaengine4android/blob/main/README_CN.md)
 
 ## CuraEngine for Android
 
@@ -8,9 +8,24 @@ README: [ENGLISH](https://github.com/alexwoo1900/curaengine_for_android/blob/mas
 
 ## Demo
 
-![CuraEngine for Android](https://raw.githubusercontent.com/alexwoo1900/curaengine4android/master/docs/assets/curaengine4android.gif)
+![CuraEngine for Android](https://github.com/alexwoo1900/curaengine4android/blob/main/docs/assets/curaengine4android.gif)
 
 ## 快速上手
+
+- Download the [latest release](https://github.com/alexwoo1900/curaengine4android/archive/refs/heads/main.zip) and extract the package into `[CURAENGINE4ANDROID]`
+- Create a new C++ project in Android Studio
+    - New Project -> Native C++
+        - Language: Kotlin
+        - Minimum SDK: Android 6.0
+    - Initialize Android environment (automatic)
+    - Setup your AVD
+        - Copy `[CURAENGINE4ANDROID]\com.example.myapplication` into `/mnt/sdcard/android/data` in AVD
+- Replace `[HOME]\AndroidStudioProjects\[PROJECT]\app\src` with `[CURAENGINE4ANDROID]\src`
+- Replace `[HOME]\AndroidStudioProjects\[PROJECT]\app\build.gradle` with `[CURAENGINE4ANDROID]\build.gradle`
+- Build and run
+
+PS.
+If you met any problems during building stage, delete `[HOME]\AndroidStudioProjects\[PROJECT]\app\.cxx` and retry.
 
 ### 定制化
 

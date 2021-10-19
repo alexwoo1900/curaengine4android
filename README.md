@@ -1,4 +1,4 @@
-README: [ENGLISH](https://github.com/alexwoo1900/curaengine4android/blob/master/README.md) | [简体中文](https://github.com/alexwoo1900/curaengine4android/blob/master/README_CN.md)
+README: [ENGLISH](https://github.com/alexwoo1900/curaengine4android/blob/main/README.md) | [简体中文](https://github.com/alexwoo1900/curaengine4android/blob/main/README_CN.md)
 
 ## CuraEngine for Android
 
@@ -8,11 +8,11 @@ This project can tell you how to run CuraEngine on Android.
 
 ## Demo
 
-![CuraEngine for Android](https://raw.githubusercontent.com/alexwoo1900/curaengine4android/master/docs/assets/curaengine4android.gif)
+![CuraEngine for Android](https://github.com/alexwoo1900/curaengine4android/blob/main/docs/assets/curaengine4android.gif)
 
 ## Quick Start
 
-- Download the latest release and extract the package into `[CURAENGINE4ANDROID]`
+- Download the [latest release](https://github.com/alexwoo1900/curaengine4android/archive/refs/heads/main.zip) and extract the package into `[CURAENGINE4ANDROID]`
 - Create a new C++ project in Android Studio
     - New Project -> Native C++
         - Language: Kotlin
