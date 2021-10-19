@@ -15,6 +15,15 @@ This project can tell you how to run CuraEngine on Android.
 
 ## Quick Start
 
+### Environment
+
+- Android Studio Arctic Fox | 2021.3 Patch 2
+- AVD
+    - 1080 x 2340: xhdpi
+    - Android 10.0 (Google APIs)
+
+### Stage
+
 - Download the [latest release](https://github.com/alexwoo1900/curaengine4android/archive/refs/heads/main.zip) and extract the package into `ce4a`
 - Create a new C++ project in Android Studio
     - New Project -> Native C++
@@ -29,6 +38,7 @@ This project can tell you how to run CuraEngine on Android.
 
 PS.
 If you met any problems during building stage, delete `~\AndroidStudioProjects\{PROJECT}\app\.cxx` and retry.
+
 
 ### Customization
 

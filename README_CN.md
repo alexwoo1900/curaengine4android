@@ -14,6 +14,15 @@ README: [ENGLISH](https://github.com/alexwoo1900/curaengine4android/blob/main/RE
 
 ## 快速上手
 
+### 环境
+
+- Android Studio Arctic Fox | 2021.3 Patch 2
+- AVD
+    - 1080 x 2340: xhdpi
+    - Android 10.0 (Google APIs)
+
+### 步骤
+
 - 下载本项目[最新版本](https://github.com/alexwoo1900/curaengine4android/archive/refs/heads/main.zip)并把包解压到`ce4a`
 - 在Android Studio中创建C++项目
     - New Project -> Native C++
@@ -28,6 +37,7 @@ README: [ENGLISH](https://github.com/alexwoo1900/curaengine4android/blob/main/RE
 
 PS.
 假如你在构建的过程中遇到问题，请删除`~\AndroidStudioProjects\{PROJECT}\app\.cxx`后重试。
+
 
 ### 定制化
 
