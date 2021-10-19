@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sliceCubeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="84dp"
+        android:text="Cube"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gcodeWriterPB" />
+
+    <TextView
+        android:id="@+id/skinsInfillPTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="0%"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/skinsInfillTV"
+        app:layout_constraintTop_toBottomOf="@+id/skinsInfillPB" />
+
+    <TextView
+        android:id="@+id/gcodeWriterPTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="0%"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/gcodeWriterTV"
+        app:layout_constraintTop_toBottomOf="@+id/gcodeWriterPB" />
+
+    <TextView
+        android:id="@+id/gcodeWriterTV"
+        android:layout_width="150dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        android:text="[GcodeWriter]"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gcodeWriterPB" />
+
+    <ProgressBar
+        android:id="@+id/gcodeWriterPB"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="400dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="16dp"
+        android:max="100"
+        android:min="0"
+        android:progressDrawable="@drawable/demo_progressbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skinsInfillTV" />
+
+    <TextView
+        android:id="@+id/insetsTV"
+        android:layout_width="85dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        android:text="[Insets]"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insetsPB" />
+
+    <ProgressBar
+        android:id="@+id/skinsInfillPB"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="400dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="16dp"
+        android:max="100"
+        android:min="0"
+        android:progressDrawable="@drawable/demo_progressbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insetsTV" />
+
+    <TextView
+        android:id="@+id/skinsInfillTV"
+        android:layout_width="160dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        android:text="[Skins and Infill]"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skinsInfillPB" />
+
+    <ProgressBar
+        android:id="@+id/insetsPB"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="400dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="388dp"
+        android:max="100"
+        android:min="0"
+        android:progressDrawable="@drawable/demo_progressbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/insetsPTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="0%"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/insetsTV"
+        app:layout_constraintTop_toBottomOf="@+id/insetsPB" />
+
+    <Button
+        android:id="@+id/sliceTrooperBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="84dp"
+        android:text="Trooper"
+        app:layout_constraintStart_toEndOf="@+id/sliceCubeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/gcodeWriterPB" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
