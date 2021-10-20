@@ -58,7 +58,7 @@ The source code of CuraEngine in this project is a revised version, which has fi
 
 If you just use the engine as its, you don't have to modify any files.  
 I have removed all unnecessary dependency libraries to allow developers to run the demo as soon as possible.  
-If you need Arcus or Open MPI, just download the code, put them into your project and add some configurations to your CmakeLists.txt
+If you need Arcus or OpenMP, just download the code, put them into your project and add some configurations to your CmakeLists.txt
 
 ### Kotlin Demo
 
