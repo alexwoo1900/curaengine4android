@@ -57,7 +57,7 @@ CuraEngine原本就是为桌面平台设计的，我们没法在Android上直接
 
 如果你只想原样地使用CuraEngine，那不用修改任何东西。  
 为了让开发者尽快地把项目跑起来，我已在项目中移除了所有非必要的依赖库。  
-假如你还是需要Arcus或者是Open MPI等依赖项目，只需要把它们的代码放进项目中，然后修改CMakeLists.txt即可。
+假如你还是需要Arcus或者是OpenMP等依赖项目，只需要把它们的代码放进项目中，然后修改CMakeLists.txt即可。
 
 ### Kotlin应用
 
