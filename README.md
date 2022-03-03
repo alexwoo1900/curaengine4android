@@ -62,6 +62,6 @@ If you need Arcus or OpenMP, just download the code, put them into your project 
 
 ### Kotlin Demo
 
-I make a very simple application page to visually show developers the availability of CuraEngine.  
+I have made a very simple application page to visually show developers the availability of CuraEngine.  
 It's written in Kotlin and C++, and both are natively supported by Android Studio.  
 Especially the C++ part of the code can let you know how to extract information from CuraEngine and interacts with frontend.  
